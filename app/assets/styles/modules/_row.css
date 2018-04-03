@@ -14,6 +14,15 @@
 	}
 
 }
+	&__medium-6 {
+		float: left;
+		width: 100%;
+
+	@media (min-width: 520px) {
+		width:50%;
+	}
+}
+
 
 	&__8 {
 		float: left;
@@ -25,7 +34,15 @@
 }
 
 	&--gutters {
-		padding-right: -65px;
+		margin-right: -65px;
+	}
+
+	&--gutters-large {
+		margin-right: -100px;
+	}
+
+	&--gutters-large > div {
+		padding-right: 100px;
 	}
 
 	&--gutters > div {
