@@ -1,0 +1,36 @@
+.row {
+	&::after {
+		content:"";
+		clear: both;
+		display: table;
+	}
+
+	&__4 {
+		float: left;
+		width: 100%;
+
+	@media (min-width: 520px) {
+		width: 37%;
+	}
+
+}
+
+	&__8 {
+		float: left;
+		width: 100%;
+
+	@media (min-width: 520px) {
+		width: 63%;
+	}
+}
+
+	&--gutters {
+		padding-right: -65px;
+	}
+
+	&--gutters > div {
+		padding-right: 65px;
+	}
+
+
+}
